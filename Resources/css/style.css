@@ -1,0 +1,177 @@
+html {
+    background-color: black;
+}
+
+body {
+    width: 1240px;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    font-family: Helvetica;
+    text-align: center;
+    z-index: 2;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    width: 1240px;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    background-color: black;
+    margin-top: -8px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    flex-grow: 1;
+    margin-left: 10px;
+    width: 500px;
+}
+
+.logo img {
+    height: 50px;
+    color: seashell;
+}
+
+header nav {
+    margin-right: 15px;
+}
+
+nav {
+    display: block;
+}
+
+nav span {
+    display: inline-flex;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.content {
+    display: block;
+    position: absolute;
+    padding-top: 5px;
+    width: 1200px;
+    margin: 0 20px 0 20px;
+    align-content: center;
+}
+
+.main {
+    display: flex;
+    background-image: url("../images/img-mission-background.jpg");
+    background-position: center;
+    width: 1200px;
+    height: 700px;
+    padding-top: 69px;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.mission {
+    vertical-align: middle;
+    background-color: black;
+    z-index: 5;
+    text-align: center;
+    height: 150px;
+    width: 1200px;
+}
+
+.panels {
+    display: block;
+    width: 1000px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panels img {
+    width: 300px;
+    height: 200px;
+}
+
+.panel {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin: 10px;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/img-locations-background.jpg");
+    width: 1200px;
+    height: 500px;
+    align-items: center;
+}
+
+.name h2 {
+    margin-bottom: 0;
+}
+
+.stores {
+    position: relative align-content:space-around;
+    margin-top: 15px;
+}
+
+.stores span {
+    display: block;
+    padding: 15px 10px;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.downtown {
+    background-color: black;
+    width: 300px;
+    height: 275px;
+    display: inline-block;
+    margin: 15px 20px;
+    float: left;
+}
+
+.bayside {
+    background-color: black;
+    display: inline-block;
+    height: 275px;
+    width: 300px;
+    margin: 15px;
+    float: left;
+}
+
+.oakdale {
+    background-color: black;
+    display: inline-block;
+    height: 275px;
+    width: 300px;
+    margin: 15px;
+    float: left;
+}
+
+
+}
+.contact {
+    display: flex;
+    height: 200px;
+}
+footer {
+    text-align: left;
+}
